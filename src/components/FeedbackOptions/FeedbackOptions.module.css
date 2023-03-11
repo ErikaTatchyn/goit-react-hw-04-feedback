@@ -1,0 +1,23 @@
+.feedbackOptions {
+  display: flex;
+  /* justify-content: center; */
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.feedbackOptions button {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedbackOptions button:hover {
+  background-color: #388e3c;
+}
